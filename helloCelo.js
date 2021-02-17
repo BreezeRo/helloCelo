@@ -10,7 +10,6 @@ const ContractKit = require('@celo/contractkit')
 const web3 = new Web3('https://alfajores-forno.celo-testnet.org')
 const kit = ContractKit.newKitFromWeb3(web3)
 
-
 contracts = {
   celo: kit.contracts.getGoldToken(),
   cusd: kit.contracts.getStableToken()
